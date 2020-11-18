@@ -1,0 +1,104 @@
+.main {
+    background-image: url('../images/blackjack-background.png');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.dealer-hand{
+    border: 1px solid white;
+    position: absolute;
+    width: 20%;
+    height: 180px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    top: 0;
+}
+.player-hand{
+    border: 1px solid white;
+    position: absolute;
+    width: 20%;
+    height: 180px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    bottom: 20%;
+}
+.subcontainer{
+    position: relative;
+}
+.subcontainer img {
+    width: 30%;
+}
+.subcontainer .card1{
+    position: relative;
+    left: 20%;
+    z-index: 1;
+}
+.subcontainer .card2{
+    position: relative;
+    z-index: 2;
+}
+.subcontainer .card3{
+    position: relative;
+    right: 20%;
+    z-index: 3;
+}
+.options{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 550px;
+    
+}
+.chat{
+    position: absolute;
+    border: 1px solid white;
+    width: 300px;
+    height: 300px;
+    margin-top: 220px;
+    margin-left: 120px;
+    background-color: rgba(0, 5, 0, 0.801);
+}
+h1{
+    color: white;
+    margin-left: 25px;
+}
+p{
+    color: white;
+    margin-left: 25px;
+}
+
+.hidden{
+    display: none;
+}
+
+.black{
+    background-color: rgba(0, 5, 0, 0.705);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0%;
+}
+
+.white{
+    background-color: white;
+    width: 400px;
+    height: 250px;
+    position: relarive;
+    margin-left: 500px;
+    margin-top: 225px;
+}
+
+.other{
+    position: absolute;
+    top:10px;
+    margin-left: 650px;
+    margin-top: 425px;
+}
+
+.winner{
+    font-size: 40px;
+    position: absolute;
+    margin-left: 60px;
+    
+    
+}
